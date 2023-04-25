@@ -113,9 +113,9 @@ public class InputValidazioneGara extends JFrame implements ActionListener {
 			datiValidi = false;
 			outputTextArea.append("posto non inserito\n");
 		}
-		if (postoTextField.getText().isEmpty()) {
+		if (dataTextField.getText().isEmpty()) {
 			datiValidi = false;
-			outputTextArea.append("posto non inserito\n");
+			outputTextArea.append("data non inserita\n");
 		}
 		try {
 			numeroConcorrenti =
